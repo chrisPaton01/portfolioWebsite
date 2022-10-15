@@ -4,11 +4,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.projects {
+  padding: 25px;
+  background-color: #cdd6de;
+  float: left;
+}
+
+.hobbies {
+  padding: 25px;
+  background-color: #ddcfce;
+  float: left;
 }

@@ -1,9 +1,9 @@
 const Hobbies = () => {
-    return (
-        <div>
-            <code>Test 2</code>
-        </div>
-    );
+  return (
+    <div>
+      <code>Hobbies</code>
+    </div>
+  );
 };
 
 export default Hobbies;
