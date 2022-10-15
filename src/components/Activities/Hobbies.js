@@ -1,3 +1,5 @@
+import './Hobbies.css';
+
 const Hobbies = () => {
   return (
     <div>
