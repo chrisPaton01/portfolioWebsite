@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <div>
-      <code>Projects</code>
+      <span className='Projects-Title'>Projects</span>
     </div>
   );
 };

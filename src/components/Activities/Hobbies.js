@@ -1,7 +1,7 @@
 const Hobbies = () => {
   return (
     <div>
-      <code>Hobbies</code>
+      <span className='Hobbies-Title'>Hobbies</span>
     </div>
   );
 };

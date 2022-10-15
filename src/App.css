@@ -1,5 +1,5 @@
 .App-header {
-  background-color: #282c34;
+  background-color: #181a1d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,18 +9,18 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .projects {
   padding: 25px;
   background-color: #cdd6de;
   float: left;
+  width: 100%;
+  text-decoration: underline;
 }
 
 .hobbies {
   padding: 25px;
   background-color: #ddcfce;
   float: left;
+  width: 100%;
+  text-decoration: underline;
 }

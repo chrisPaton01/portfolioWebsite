@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Silkscreen');
+
+.Navbar-title {
+    background-color: #181a1d;
+}
+
+.title {
+    color: white;
+    font-family: 'Silkscreen';
+}
+
+.App-links {
+    font-family: 'Silkscreen';
+    float: right;
+    color: pink;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(167, 200, 238);
+    background-color: transparent;
+    text-decoration: underline;
+}
