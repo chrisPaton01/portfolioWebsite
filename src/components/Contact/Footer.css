@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.Footer {
+    font-weight: bold;
+    font-family: 'Abel';
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    color: white;
+    padding: 5vh;
+    background-color: #181a1d;
+}

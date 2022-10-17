@@ -3,4 +3,5 @@
 .Projects-Title {
     font-weight: bold;
     font-family: 'Silkscreen';
+    font-size: calc(10px + 2vmin);
 }

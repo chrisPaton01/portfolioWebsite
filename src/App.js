@@ -3,6 +3,7 @@ import logo from './static/favicon.png';
 import Projects from './components/Activities/Projects';
 import Hobbies from './components/Activities/Hobbies';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Contact/Footer';
 
 const App = () => {
   return (
@@ -11,14 +12,15 @@ const App = () => {
       <header className='App-header'>
         {/*<br></br>*/}
         <div className='Portfolio'>
-          <div className='Projects'>
+          <div className='Portfolio-column1'>
             <Projects />
           </div>
-          <div className='Hobbies'>
+          <div className='Portfolio-column2'>
             <Hobbies />
           </div>
         </div>
       </header>
+      <Footer />
     </div>
   );
 };

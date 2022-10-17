@@ -5,26 +5,23 @@
   flex-direction: column;
   align-items: center;
   /*justify-content: center;*/
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .Portfolio {
-  margin: 3em;
+  margin: 2em;
 }
 
-.Projects {
-  padding: 25px;
+.Portfolio-column1 {
+  padding: 20px;
   background-color: #cdd6de;
   float: left;
-  width: 100%;
-  text-decoration: underline;
+  text-align: center;
 }
 
-.Hobbies {
-  padding: 25px;
+.Portfolio-column2 {
+  padding: 20px;
   background-color: #F8D4D4;
   float: left;
-  width: 100%;
-  text-decoration: underline;
+  text-align: center;
 }
