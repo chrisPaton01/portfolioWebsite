@@ -9,7 +9,11 @@
   color: white;
 }
 
-.projects {
+.Portfolio {
+  margin: 3em;
+}
+
+.Projects {
   padding: 25px;
   background-color: #cdd6de;
   float: left;
@@ -17,7 +21,7 @@
   text-decoration: underline;
 }
 
-.hobbies {
+.Hobbies {
   padding: 25px;
   background-color: #F8D4D4;
   float: left;

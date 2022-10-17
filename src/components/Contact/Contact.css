@@ -4,15 +4,18 @@
     background-color: #181a1d;
 }
 
-.title {
+.Title {
     color: #f1f8ff;
     font-family: 'Silkscreen';
+    padding-left: 25px;
 }
 
 .App-links {
     font-family: 'Silkscreen';
     float: right;
     color: pink;
+    padding-right: 25px;
+
 }
 
 a:link {

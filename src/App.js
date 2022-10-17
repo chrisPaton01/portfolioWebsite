@@ -9,12 +9,12 @@ const App = () => {
     <div className='App'>
       <Contact />
       <header className='App-header'>
-        <br></br>
-        <div>
-          <div className='projects'>
+        {/*<br></br>*/}
+        <div className='Portfolio'>
+          <div className='Projects'>
             <Projects />
           </div>
-          <div className='hobbies'>
+          <div className='Hobbies'>
             <Hobbies />
           </div>
         </div>
