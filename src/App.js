@@ -1,5 +1,4 @@
 import './App.css';
-import logo from './static/favicon.png';
 import Projects from './components/Activities/Projects';
 import Hobbies from './components/Activities/Hobbies';
 import Contact from './components/Contact/Contact';
@@ -8,8 +7,10 @@ import Footer from './components/Contact/Footer';
 const App = () => {
   return (
     <div className='App'>
-      <Contact />
-      <header className='App-header'>
+      <header className='Navbar'>
+        <Contact />
+      </header>
+      <div className='App-header'>
         {/*<br></br>*/}
         <div className='Portfolio'>
           <div className='Portfolio-column1'>
@@ -19,7 +20,7 @@ const App = () => {
             <Hobbies />
           </div>
         </div>
-      </header>
+      </div>
       <Footer />
     </div>
   );

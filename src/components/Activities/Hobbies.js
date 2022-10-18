@@ -14,7 +14,7 @@ const Hobbies = () => {
         width='100%'
         height='500px'
       ></iframe>
-
+      &nbsp;
       <iframe
         title='Kirby Fan Art'
         className='view360Iframe'

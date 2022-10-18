@@ -14,7 +14,7 @@ const Projects = () => {
         width='100%'
         height='500px'
       ></iframe>
-
+      &nbsp;
       <iframe
         title='Berserk Dragon Slayer Fan Art'
         className='view360Iframe'
