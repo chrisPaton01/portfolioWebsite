@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 .Footer {
-    font-weight: bold;
-    font-family: 'Abel';
+    font-family: 'Ubuntu';
     font-size: calc(10px + 2vmin);
     text-align: center;
     color: white;
