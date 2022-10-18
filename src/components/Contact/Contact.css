@@ -15,29 +15,26 @@
 }
 
 .Title {
-    color: #f1f8ff;
+    color: rgb(167, 200, 238);
     font-family: 'Silkscreen';
     padding-right: 10px;
     font-size: 130%;
 }
 
 .link1 {
-    color: pink;
+    color: #fdba93;
     padding-right: 10px;
-    font-style: italic;
     font-size: 130%;
 }
 
 .link2 {
-    color: pink;
+    color: #fdba93;
     padding-right: 10px;
-    font-style: italic;
     font-size: 130%;
 }
 
 .link3 {
-    color: pink;
-    font-style: italic;
+    color: #fdba93;
     font-size: 130%;
 }
 
@@ -52,7 +49,7 @@ a:link {
 }
 
 a:hover {
-    color: rgb(167, 200, 238);
+    color: #fd7979;
     background-color: transparent;
     text-decoration: underline;
 }

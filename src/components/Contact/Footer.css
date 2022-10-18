@@ -4,7 +4,22 @@
     font-family: 'Ubuntu';
     font-size: calc(10px + 2vmin);
     text-align: center;
-    color: white;
-    padding: 5vh;
+    padding: 3vh;
     background-color: #181a1d;
+    color: white;
+}
+
+.Creator-tag {
+    font-size: 15px;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fd7979;
+    background-color: transparent;
+    text-decoration: underline;
 }
