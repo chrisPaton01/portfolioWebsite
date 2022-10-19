@@ -1,6 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Silkscreen');
+@import url("https://fonts.googleapis.com/css?family=Silkscreen");
 
 .Navbar-title {
+  background-color: #181a1d;
+  padding-top: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+}
+
+.Logo {
+  width: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Title {
+  color: #f1f8ff;
+  font-family: "Silkscreen";
+  padding-right: 10px;
+}
+
+.App-links {
+  font-family: "Silkscreen";
+  float: right;
+  height: auto;
+  list-style-type: none;
+  padding-right: 10px;
+  padding: 0;
+  float: right;
+  height: 0;
+}
+
+.link1 {
+  color: #fdba93;
+}
+
+.link2 {
+  color: #fdba93;
+}
+
+.link3 {
+  color: pink;
+  font-size: 120%;
+}
+
+.App-links {
+  font-family: "Silkscreen";
+
+  padding-right: 25px;
+  font-size: 100%;
+  float: right;
     background-color: #181a1d;
     padding-top: 20px;
     padding-left: 2rem;
@@ -41,11 +93,21 @@
 }
 
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #fd7979;
-    background-color: transparent;
-    text-decoration: underline;
+  color: rgb(167, 200, 238);
+  background-color: transparent;
+  text-decoration: underline;
 }
+@media only screen and (max-width: 413px) {
+  .Navbar-title {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+}
+
