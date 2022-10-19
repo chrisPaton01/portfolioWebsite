@@ -1,6 +1,8 @@
+
+
 .App {
   min-width: 262px;
-  min-height: 655px;
+  height: 100%;
 }
 
 .App-header {
@@ -34,6 +36,6 @@
   text-align: center;
 }
 
-.App{
+.App {
   min-width: 565px;
 }
