@@ -2,37 +2,37 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className='Navbar-title'>
-      <span className='Title'>Christian's</span>
-      <br></br>
-      <span className='Title'>Portfolio</span>
-      <span className='App-links'>
-        <a className='link1'
+    <nav className='Navbar-title'>
+      <h1 className='Title'>Christian's<br></br><span className='Title'>Portfolio</span></h1>
+      <img className='Logo' src='assets/logo.png' alt='logo' />
+      <ul className='App-links'>
+        <li className><a
+          className='link1'
           target='_blank'
           href='https://www.linkedin.com/in/christian-samuel-paton/'
           rel='noopener noreferrer'
         >
           LINKEDIN
-        </a>
-
-        <a className='link2'
+        </a></li>
+        <li><a
+          className='link2'
           target='_blank'
           href='https://github.com/chrisPaton01'
           rel='noopener noreferrer'
         >
           GITHUB
-        </a>
-
-        <a
+        </a></li>
+        <li><a
           className='link3'
           target='_blank'
           href='https://www.google.com/'
           rel='noopener noreferrer'
         >
           RESUME
-        </a>
-      </span>
-    </div>
+        </a></li>
+      </ul>
+      
+    </nav>
   );
 };
 

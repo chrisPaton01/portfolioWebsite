@@ -2,26 +2,45 @@
 
 .Navbar-title {
     background-color: #181a1d;
+    padding-top: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    
+}
+
+.Logo {
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Title {
     color: #f1f8ff;
     font-family: 'Silkscreen';
-    padding-left: 25px;
-    font-size: 120%;
-    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.App-links {
+    font-family: 'Silkscreen';
+    float: right;
+    height: auto;
+    list-style-type: none;
+    padding: 0;
+    
 }
 
 .link1 {
-    color: pink;
-    font-size: 120%;
-    padding-right: 10px;
+    color: #fdba93;
+    /* padding-right: 10px; */
 }
 
 .link2 {
-    color: pink;
-    font-size: 120%;
-    padding-right: 10px;
+    color: #fdba93;
+    /* padding-right: 10px; */
 }
 
 .link3 {
@@ -47,3 +66,12 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
 }
+@media only screen and (max-width: 413px) {
+    .Navbar-title {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+  }
