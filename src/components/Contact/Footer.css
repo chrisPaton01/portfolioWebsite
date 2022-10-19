@@ -9,13 +9,19 @@
     color: white;
 }
 
-.Creator-tag {
+.Creator-tag1 {
+    font-size: 25px;
+    color: white;
+}
+
+.Creator-tag2 {
     font-size: 15px;
     color: white;
 }
 
 a:link {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {

@@ -18,30 +18,26 @@
     color: rgb(167, 200, 238);
     font-family: 'Silkscreen';
     padding-right: 10px;
-    font-size: 130%;
-}
-
-.link1 {
-    color: #fdba93;
-    padding-right: 10px;
-    font-size: 130%;
-}
-
-.link2 {
-    color: #fdba93;
-    padding-right: 10px;
-    font-size: 130%;
-}
-
-.link3 {
-    color: #fdba93;
-    font-size: 130%;
 }
 
 .App-links {
     font-family: 'Silkscreen';
     float: right;
     height: 0;
+}
+
+.link1 {
+    color: #fdba93;
+    padding-right: 10px;
+}
+
+.link2 {
+    color: #fdba93;
+    padding-right: 10px;
+}
+
+.link3 {
+    color: #fdba93;
 }
 
 a:link {
