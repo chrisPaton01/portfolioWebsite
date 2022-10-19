@@ -21,7 +21,7 @@
 }
 
 .Logo {
-    width: 85px;
+    width: 89px;
     height: 104px;
     display: block;
     margin-left: auto;
@@ -41,24 +41,22 @@
 .Title {
     color: rgb(167, 200, 238);
     font-family: 'Silkscreen';
-    font-size: 21px;
+    font-size: 23px;
 }
 
 .link1 {
     color: #fdba93;
-    
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .link2 {
     color: #fdba93;
-    
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .link3 {
     color: #fdba93;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 a:link {

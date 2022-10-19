@@ -11,7 +11,6 @@ const App = () => {
         <Contact />
       </header>
       <div className='App-header'>
-        {/*<br></br>*/}
         <div className='Portfolio'>
           <div className='Portfolio-column1'>
             <Projects />
