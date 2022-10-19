@@ -53,6 +53,43 @@
   padding-right: 25px;
   font-size: 100%;
   float: right;
+    background-color: #181a1d;
+    padding-top: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Logo {
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title {
+    color: rgb(167, 200, 238);
+    font-family: 'Silkscreen';
+    padding-right: 10px;
+}
+
+.App-links {
+    font-family: 'Silkscreen';
+    float: right;
+    height: 0;
+}
+
+.link1 {
+    color: #fdba93;
+    padding-right: 10px;
+}
+
+.link2 {
+    color: #fdba93;
+    padding-right: 10px;
+}
+
+.link3 {
+    color: #fdba93;
 }
 
 a:link {
@@ -73,3 +110,4 @@ a:hover {
     text-align: center;
   }
 }
+
