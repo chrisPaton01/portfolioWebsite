@@ -7,14 +7,16 @@ const Footer = () => {
         <p className='Creator-tag1'>
           email: <a href='mailto:someone@example.com'>example@gmail.com</a>
         </p>
-        <a
-          className='Creator-tag2'
-          target='_blank'
-          href='https://www.linkedin.com/in/christian-samuel-paton/'
-          rel='noopener noreferrer'
-        >
-          <p>Designed & Built by Christian P. ©2022</p>
-        </a>
+        <p className='Creator-tag2'>
+          Designed & Built by &nbsp;
+          <a
+            target='_blank'
+            href='https://www.linkedin.com/in/christian-samuel-paton/'
+            rel='noopener noreferrer'
+          >
+            Christian P. ©2022
+          </a>
+        </p>
       </div>
     </div>
   );

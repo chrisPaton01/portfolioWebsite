@@ -1,6 +1,11 @@
+.App {
+  min-width: 262px;
+  min-height: 655px;
+}
+
 .App-header {
   background-color: #181a1d;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;

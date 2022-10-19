@@ -7,7 +7,7 @@ import Footer from './components/Contact/Footer';
 const App = () => {
   return (
     <div className='App'>
-      <header className='Navbar'>
+      <header>
         <Contact />
       </header>
       <div className='App-header'>

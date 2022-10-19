@@ -15,13 +15,17 @@
 }
 
 .Creator-tag2 {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
+}
+
+a:visited {
+    color: #fdba93;
 }
 
 a:link {
     text-decoration: none;
-    color: white;
+    color: #fdba93;
 }
 
 a:hover {
