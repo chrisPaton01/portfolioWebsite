@@ -3,5 +3,10 @@
 .Hobbies-Title {
     font-weight: bold;
     font-family: 'Silkscreen';
-    font-size: calc(10px + 2vmin);
+    /*font-size: calc(10px + 2vmin);*/
+    font-size: 34px;
 }
+
+/*iframe{
+    border:0
+}*/

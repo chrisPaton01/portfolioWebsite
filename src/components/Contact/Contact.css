@@ -2,7 +2,7 @@
 
 /* When window is at a certain pixel width or below that width, 
 use this css on Navbar instead of normal Navbar css code */
-@media only screen and (max-width: 635px) {
+@media only screen and (max-width: 770px) {
     .Navbar {
         flex-direction: column;
         align-content: center;
@@ -12,11 +12,52 @@ use this css on Navbar instead of normal Navbar css code */
     }
 }
 
+@keyframes nav-load {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Title-Color {
+    0% {
+        color: rgb(167, 200, 238);
+    }
+
+    25% {
+        color: #cd98ff;
+    }
+
+    50% {
+        color: #fdba93;
+    }
+
+    75% {
+        color: #cd98ff;
+    }
+
+    100% {
+        color: rgb(167, 200, 238);
+    }
+}
+
+nav {
+    animation: nav-load;
+    opacity: 1;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
 .Navbar {
     background-color: #181a1d;
-    padding-top: 35px;
+    padding-top: 4rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     flex: auto;
@@ -25,8 +66,9 @@ use this css on Navbar instead of normal Navbar css code */
 .Title {
     color: rgb(167, 200, 238);
     font-family: 'Silkscreen';
-    font-size: 23px;
+    font-size: 27px;
     text-align: center;
+    animation: Title-Color 4.5s infinite linear;
 }
 
 .Logo {
@@ -38,7 +80,7 @@ use this css on Navbar instead of normal Navbar css code */
 }
 
 .App-links {
-    width: 163.88px;
+    width: 192.38px;
     font-family: "Silkscreen";
     text-align: center;
     float: right;
@@ -49,15 +91,52 @@ use this css on Navbar instead of normal Navbar css code */
 
 .link1 {
     color: #fdba93;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .link2 {
     color: #fdba93;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .link3 {
     color: #fdba93;
-    font-size: 20px;
+    font-size: 23px;
 }
+
+/* ANIMATION FOR NAV BAR FALLING IN, DOESN'T EASE FOR SOME REASON
+@keyframes nav-load {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes Title-Color {
+    0% {
+        color: rgb(167, 200, 238);
+    }
+
+    33% {
+        color: #cd98ff;
+    }
+
+    66% {
+        color: #fdba93;
+    }
+
+    100% {
+        color: rgb(167, 200, 238);
+    }
+}
+
+nav {
+    animation: nav-load 800ms ease-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+*/
