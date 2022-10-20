@@ -14,8 +14,9 @@ const Footer = () => {
             href='https://www.linkedin.com/in/christian-samuel-paton/'
             rel='noopener noreferrer'
           >
-            Christian P. ©2022
+            Christian P.
           </a>
+          &nbsp; ©2022
         </p>
       </div>
     </div>

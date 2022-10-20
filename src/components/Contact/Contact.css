@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Silkscreen");
 
-@media only screen and (max-width: 413px) {
-    .Navbar-title {
+/* When window is at a certain pixel width or below that width, 
+use this css on Navbar instead of normal Navbar css code */
+@media only screen and (max-width: 635px) {
+    .Navbar {
         flex-direction: column;
         align-content: center;
         align-items: center;
@@ -10,7 +12,7 @@
     }
 }
 
-.Navbar-title {
+.Navbar {
     background-color: #181a1d;
     padding-top: 35px;
     padding-left: 3rem;
@@ -18,6 +20,12 @@
     display: flex;
     flex-wrap: wrap;
     flex: auto;
+}
+
+.Title {
+    color: rgb(167, 200, 238);
+    font-family: 'Silkscreen';
+    font-size: 23px;
     text-align: center;
 }
 
@@ -30,18 +38,13 @@
 }
 
 .App-links {
+    width: 163.88px;
     font-family: "Silkscreen";
     text-align: center;
     float: right;
     background-color: #181a1d;
     list-style-type: none;
     padding-inline-start: 0px;
-}
-
-.Title {
-    color: rgb(167, 200, 238);
-    font-family: 'Silkscreen';
-    font-size: 23px;
 }
 
 .link1 {
@@ -57,18 +60,4 @@
 .link3 {
     color: #fdba93;
     font-size: 20px;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    color: #fdba93;
-}
-
-a:hover {
-    color: rgb(167, 200, 238);
-    background-color: transparent;
-    text-decoration: underline;
 }

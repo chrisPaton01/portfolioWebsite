@@ -2,7 +2,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <nav className='Navbar-title'>
+    <nav className='Navbar'>
       <h1 className='Title'>
         Christian's<br></br>
         <span className='Title'>Portfolio</span>
