@@ -57,7 +57,6 @@ nav {
     padding-top: 4rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     flex: auto;
@@ -77,6 +76,11 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: transform 0.2s;
+}
+
+.Logo:hover {
+    transform: scale(1.2);
 }
 
 .App-links {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Silkscreen");
 
 @keyframes Footer-Fadein {
     0% {
@@ -11,10 +11,13 @@
 }
 
 .Footer {
-    font-family: 'Ubuntu';
+    font-family: 'Silkscreen';
     font-size: calc(10px + 2vmin);
     text-align: center;
-    padding: 1vh;
+    /* padding: 1vh; */
+    padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     background-color: #181a1d;
     color: white;
     /*height: 100vh;*/
@@ -27,7 +30,6 @@
 
 .Creator-tag1 {
     font-size: 25px;
-    color: white;
 }
 
 .Creator-tag2 {

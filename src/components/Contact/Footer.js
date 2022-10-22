@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <div className='Footer'>
         <p className='Creator-tag1'>
-          click to email <a href='mailto:christian.paton01@gmail.com'>me!</a>
+          <a href='mailto:christian.paton01@gmail.com'>click to email me!</a>
         </p>
         <p className='Creator-tag2'>
           Designed & Built by &nbsp;
