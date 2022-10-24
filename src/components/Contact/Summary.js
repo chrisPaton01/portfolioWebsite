@@ -5,7 +5,13 @@ const Summary = () => {
     <div>
       <h1 className='Summary-Title'>Computer Science graduate & 3D Artist</h1>
       <p className='Summary-p1'>
-        Skills: HTML CSS JavaScript (REACT) Git Python
+        <span>Skills:</span>&nbsp;
+        <span className='Skill-Text'>HTML</span>&nbsp;
+        <span className='Skill-Text'>CSS</span>&nbsp;
+        <span className='Skill-Text'>JavaScript</span> &nbsp;
+        <span className='Skill-Text'>(React)</span> &nbsp;
+        <span className='Skill-Text'>Git</span>&nbsp;
+        <span className='Skill-Text'>Python</span>
       </p>
       <p className='Summary-p2'>
         Tools:&nbsp;

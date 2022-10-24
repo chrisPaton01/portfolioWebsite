@@ -19,7 +19,7 @@
     padding-right: 3rem;
     padding-top: 0.5rem;
     opacity: 1;
-    font-size: 23.5px;
+    font-size: 25px;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s;
@@ -41,6 +41,10 @@
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s;
+    /*text-decoration: underline;*/
+}
+
+.Skill-Text {
     text-decoration: underline;
 }
 

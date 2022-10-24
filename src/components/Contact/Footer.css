@@ -35,6 +35,16 @@
 .Creator-tag2 {
     font-size: 20px;
     color: white;
+    text-align: center;
+}
+
+.Hyperlink-Space {
+    padding-bottom: 1rem;
+}
+
+a {
+    transition: transform 0.2s;
+    display: inline-block;
 }
 
 a:visited {
@@ -50,4 +60,5 @@ a:hover {
     color: #fd7979;
     background-color: transparent;
     text-decoration: underline;
+    transform: scale(1.2);
 }

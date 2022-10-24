@@ -10,6 +10,7 @@ const Footer = () => {
         <p className='Creator-tag2'>
           Designed & Built by &nbsp;
           <a
+            className='Hyperlink-Space'
             target='_blank'
             href='https://www.linkedin.com/in/christian-samuel-paton/'
             rel='noopener noreferrer'
