@@ -14,13 +14,11 @@
     font-family: 'Silkscreen';
     font-size: calc(10px + 2vmin);
     text-align: center;
-    /* padding: 1vh; */
     padding-bottom: 5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     background-color: #181a1d;
     color: white;
-    /*height: 100vh;*/
     animation: Footer-Fadein;
     opacity: 1;
     animation-iteration-count: 1;
