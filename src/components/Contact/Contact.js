@@ -33,7 +33,7 @@ const Contact = () => {
           <a
             className='link3'
             target='_blank'
-            href='https://drive.google.com/file/d/1WSG7k-LWqN4p7QXvVsyk-dEe2NR68Hl8/view'
+            href='https://drive.google.com/file/d/1jWpsXILGTbyKO5S49FMZ8rjsZA20Yttr/view'
             rel='noopener noreferrer'
           >
             RESUME
