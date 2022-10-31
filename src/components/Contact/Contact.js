@@ -13,7 +13,7 @@ const Contact = () => {
           <a
             className='link1'
             target='_blank'
-            href='https://www.linkedin.com/in/christian-samuel-paton/'
+            href='https://www.linkedin.com/in/christian-paton/'
             rel='noopener noreferrer'
           >
             LINKEDIN
