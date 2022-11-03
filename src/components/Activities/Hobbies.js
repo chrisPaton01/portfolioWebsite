@@ -7,13 +7,11 @@ const Hobbies = () => {
       <br></br>
       <br></br>
       <iframe
-        title='Kirby Fan Art'
+        title='Cactus Low Poly Art'
         scrolling='0'
         src='https://cdn-animation.artstation.com/p/video_sources/001/021/850/snoozcee-cactus-no-audio.mp4'
         width='100%'
         height='500px'
-        autoplay
-        loop
       ></iframe>
       &nbsp;
       <iframe

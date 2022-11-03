@@ -39,6 +39,7 @@
   background-color: rgb(167, 200, 238);
   float: left;
   text-align: center;
+  margin-bottom: auto;
 }
 
 .Portfolio-column2 {
@@ -46,4 +47,5 @@
   background-color: #fdba93;
   float: left;
   text-align: center;
+  margin-bottom: auto;
 }
