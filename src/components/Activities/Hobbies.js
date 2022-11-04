@@ -7,6 +7,14 @@ const Hobbies = () => {
       <br></br>
       <br></br>
       <iframe
+        title='PC Low Poly Art'
+        scrolling='0'
+        src='https://cdn-animation.artstation.com/p/video_sources/001/029/565/snoozcee-pc-noaudio.mp4'
+        width='100%'
+        height='500px'
+      ></iframe>
+      &nbsp;
+      <iframe
         title='Cactus Low Poly Art'
         scrolling='0'
         src='https://cdn-animation.artstation.com/p/video_sources/001/021/850/snoozcee-cactus-no-audio.mp4'
