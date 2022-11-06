@@ -3,7 +3,7 @@ import './Projects.css';
 const Projects = () => {
   return (
     <div>
-      <span className='Projects-Title'>Projects - REACT.JS</span>
+      <span className='Projects-Title'>Projects - REACT</span>
       <br></br>
       <br></br>
       <iframe

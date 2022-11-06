@@ -24,6 +24,8 @@
 
 .Portfolio {
   margin: 2em;
+  margin-left: 11em;
+  margin-right: 11em;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -32,6 +34,10 @@
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 1s;
+  /* Use max-width line below if adding more projects is still scaling width
+     weirdly, take out margin left and right from above if that's the case 
+    */
+  /*max-width: 75%;*/
 }
 
 .Portfolio-column1 {
@@ -40,6 +46,7 @@
   float: left;
   text-align: center;
   margin-bottom: auto;
+  flex: 1;
 }
 
 .Portfolio-column2 {
@@ -48,4 +55,5 @@
   float: left;
   text-align: center;
   margin-bottom: auto;
+  flex: 1;
 }
