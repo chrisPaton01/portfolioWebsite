@@ -12,7 +12,7 @@ const Footer = () => {
           <a
             className='Hyperlink-Space'
             target='_blank'
-            href='https://www.linkedin.com/in/christian-samuel-paton/'
+            href='https://www.linkedin.com/in/christian-paton/'
             rel='noopener noreferrer'
           >
             Christian P.

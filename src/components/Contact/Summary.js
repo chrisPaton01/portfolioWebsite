@@ -17,6 +17,18 @@ const Summary = () => {
         Tools:&nbsp;
         <img
           className='icons'
+          src='assets/vscode_icon_512x512.png'
+          alt='blender_icon'
+        />{' '}
+        &nbsp;
+        <img
+          className='icons'
+          src='assets/zbrush_icon_512x512.png'
+          alt='blender_icon'
+        />{' '}
+        &nbsp;
+        <img
+          className='icons'
           src='assets/blender_icon_512x512.png'
           alt='blender_icon'
         />{' '}

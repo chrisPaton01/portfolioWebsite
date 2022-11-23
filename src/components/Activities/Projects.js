@@ -7,6 +7,7 @@ const Projects = () => {
       <br></br>
       <br></br>
       <iframe
+        className='centre'
         title='React Placeholder'
         scrolling='0'
         src='assets/reactPlaceholder.png'
