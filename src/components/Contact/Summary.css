@@ -27,6 +27,7 @@
 
 .Summary-p1 {
     color: white;
+    margin-top: 0;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -43,11 +44,32 @@
     animation-duration: 1s;
 }
 
+/*
 .Skill-Text {
     text-decoration: underline;
 }
+*/
 
 .Summary-p2 {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Silkscreen';
+    animation: Summary-Fadein;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    opacity: 1;
+    font-size: 18px;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+.Summary-p3 {
     color: white;
     text-align: center;
     display: flex;
