@@ -36,7 +36,7 @@ const Contact = () => {
             href='https://drive.google.com/file/d/1lRPABZeKApSvkHloqFVhgIJ5A_MTCZq8/view'
             rel='noopener noreferrer'
           >
-            RESUME
+            CV
           </a>
         </li>
       </ul>
