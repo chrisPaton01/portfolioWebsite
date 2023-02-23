@@ -14,6 +14,17 @@ const Hobbies = () => {
         muted
         controls
       >
+        <source src='assets/Art_GurrenLagann_noAudio.mp4' type='video/mp4' />
+      </video>
+      &nbsp;
+      <video
+        width='100%'
+        height='500px'
+        autoplay='autoplay'
+        loop='true'
+        muted
+        controls
+      >
         <source src='assets/Art_PC_noAudio.mp4' type='video/mp4' />
       </video>
       &nbsp;
